@@ -1,22 +1,31 @@
 {
-  "name": "varify",
-  "version": "0.1.1",
+  "name": "browserify-varify",
+  "version": "0.0.0",
   "description": "browserify transform that converts all const assignments to var assignments.",
-  "main": "varify.js",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec && node_modules/codecov/bin/codecov"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/varify.git"
+    "url": "https://github.com/rubeniskov/browserify-varify.git"
   },
-  "homepage": "https://github.com/thlorenz/varify",
+  "homepage": "https://github.com/rubeniskov/browserify-varify.git",
   "dependencies": {
     "through": "~2.3.4",
     "redeyed": "~0.4.2"
   },
   "devDependencies": {
-    "tap": "~0.4.3",
+    "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-npm": "0.0.2",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
     "browserify": "~2.14.2"
   },
   "keywords": [
@@ -26,11 +35,15 @@
     "refactor",
     "compatible"
   ],
-  "author": {
+  "authors": [{
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
     "url": "http://thlorenz.com"
-  },
+  }, {
+    "name": "Rubeniskov",
+    "email": "me@rubeniskov.com",
+    "url": "http://rubeniskov.com"
+  }],
   "license": "MIT",
   "engine": {
     "node": ">=0.6"
