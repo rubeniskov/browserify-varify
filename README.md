@@ -58,3 +58,7 @@ var foo = function () {
 ## Usage from Commandline
 
     browserify -t varify sample.js > bundle.js
+
+## Credits
+
+ thlorenz / https://github.com/thlorenz/varify
