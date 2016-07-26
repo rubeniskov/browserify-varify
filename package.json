@@ -1,6 +1,6 @@
 {
   "name": "browserify-varify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "browserify transform that converts all const assignments to var assignments.",
   "main": "index.js",
   "publishConfig": {
