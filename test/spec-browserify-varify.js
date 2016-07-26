@@ -1,7 +1,7 @@
 'use strict'
 /*jshint asi:true*/
 
-var through = require('through'),
+var through = require('through2'),
     browserify = require('browserify'),
     expect = require("chai").expect,
     varify = require("..");
