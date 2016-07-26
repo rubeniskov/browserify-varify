@@ -1,1 +1,1 @@
-browserify sample.js -t browserify-varify
+browserify sample.js -p browserify-varify

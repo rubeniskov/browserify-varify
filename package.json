@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/rubeniskov/browserify-varify.git",
   "dependencies": {
-    "through": "~2.3.4",
-    "redeyed": "~0.4.2"
+    "falafel": "^1.2.0",
+    "through2": "^2.0.1"
   },
   "devDependencies": {
-    "browserify": "~2.14.2",
+    "browserify": "^13.1.0",
     "chai": "^3.5.0",
     "codecov": "^1.0.1",
     "grunt": "^1.0.1",

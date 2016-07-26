@@ -10,7 +10,7 @@ describe('Browserify Varify', function() {
 
     it('replaces all consts that are declare identifiers, but leaves others intact', function() {
         browserify()
-            .transform(require('..'))
+            .plugin(require('..'))
             .add(__dirname + '/../example/sample.js')
             .bundle()
             .pipe(through(ondata, onend));
