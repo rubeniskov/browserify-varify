@@ -6,6 +6,9 @@
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
+  "engine": {
+    "node": ">=0.6"
+  },
   "scripts": {
     "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec && node_modules/codecov/bin/codecov"
   },
@@ -33,7 +36,9 @@
     "var",
     "es5",
     "refactor",
-    "compatible"
+    "compatible",
+    "ie9",
+    "ie8"
   ],
   "authors": [{
     "name": "Thorsten Lorenz",
@@ -44,8 +49,8 @@
     "email": "me@rubeniskov.com",
     "url": "http://rubeniskov.com"
   }],
-  "license": "MIT",
-  "engine": {
-    "node": ">=0.6"
-  }
+  "bugs": {
+    "url": "https://github.com/rubeniskov/jscope/issues"
+  },
+  "license": "MIT"
 }
