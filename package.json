@@ -22,14 +22,14 @@
     "redeyed": "~0.4.2"
   },
   "devDependencies": {
+    "browserify": "~2.14.2",
     "chai": "^3.5.0",
     "codecov": "^1.0.1",
     "grunt": "^1.0.1",
     "grunt-bump": "^0.8.0",
     "grunt-npm": "0.0.2",
     "istanbul": "^0.4.3",
-    "mocha": "^2.4.5",
-    "browserify": "~2.14.2"
+    "mocha": "^2.4.5"
   },
   "keywords": [
     "const",
@@ -40,15 +40,18 @@
     "ie9",
     "ie8"
   ],
-  "authors": [{
-    "name": "Thorsten Lorenz",
-    "email": "thlorenz@gmx.de",
-    "url": "http://thlorenz.com"
-  }, {
-    "name": "Rubeniskov",
-    "email": "me@rubeniskov.com",
-    "url": "http://rubeniskov.com"
-  }],
+  "authors": [
+    {
+      "name": "Thorsten Lorenz",
+      "email": "thlorenz@gmx.de",
+      "url": "http://thlorenz.com"
+    },
+    {
+      "name": "Rubeniskov",
+      "email": "me@rubeniskov.com",
+      "url": "http://rubeniskov.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/rubeniskov/jscope/issues"
   },
